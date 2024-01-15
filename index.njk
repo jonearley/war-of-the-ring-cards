@@ -1,0 +1,10 @@
+---
+layout: base.njk
+title: War of the Ring Cards
+---
+
+<ul class="cards">
+{% for card in cards %}
+  <li><img src="/{{card}}.png" alt="" /></li>
+{% endfor %}
+</ul>
